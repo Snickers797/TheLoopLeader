@@ -106,9 +106,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LoopLeader\LoopLeader.csproj">
+    <ProjectReference Include="..\LoopLeader.Domain\LoopLeader.Domain.csproj">
+      <Project>{73f19e59-6012-4e27-ab46-b9032fe77706}</Project>
+      <Name>LoopLeader.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoopLeader\LoopLeader.WebUI.csproj">
       <Project>{C15D5DEA-1325-451F-A4A6-C2E32B44393B}</Project>
-      <Name>LoopLeader</Name>
+      <Name>LoopLeader.WebUI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
