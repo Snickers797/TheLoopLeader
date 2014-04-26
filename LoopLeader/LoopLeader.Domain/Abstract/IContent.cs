@@ -8,5 +8,6 @@ namespace LoopLeader.Domain.Abstract
 {
     public interface IContent
     {
+        void UpdateSection(string contentID, string NewSectionInfo);
     }
 }
