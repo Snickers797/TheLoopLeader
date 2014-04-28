@@ -30,6 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -45,6 +51,9 @@
     <Compile Include="Abstract\IContent.cs" />
     <Compile Include="Abstract\IMember.cs" />
     <Compile Include="Abstract\IProduct.cs" />
+    <Compile Include="Concrete\FakeMemberRepository.cs" />
+    <Compile Include="Concrete\LLDbContext.cs" />
+    <Compile Include="Concrete\MemberRepository.cs" />
     <Compile Include="Entities\Administrator.cs" />
     <Compile Include="Entities\Content.cs" />
     <Compile Include="Entities\Member.cs" />
@@ -52,7 +61,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Concrete\" />
+    <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
