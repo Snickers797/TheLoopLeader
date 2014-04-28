@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace LoopLeader.Domain.Entities
+namespace LoopLeader.Domain
 {
-    public class Product
+    public class Offer
     {
-        public int ProductID
+        public int OfferID
         {
             get
             {
@@ -19,7 +18,7 @@ namespace LoopLeader.Domain.Entities
             }
         }
 
-        public int MfgID
+        public string CustomerEmail
         {
             get
             {
@@ -30,18 +29,7 @@ namespace LoopLeader.Domain.Entities
             }
         }
 
-        public string Name
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
-        public double Price
+        public DateTime Date
         {
             get
             {
@@ -63,7 +51,7 @@ namespace LoopLeader.Domain.Entities
             }
         }
 
-        public LoopLeader.Domain.Manufacturer Manufacturer
+        public string Title
         {
             get
             {
@@ -72,6 +60,11 @@ namespace LoopLeader.Domain.Entities
             set
             {
             }
+        }
+
+        public void SendOffer(string customerEmail, string title, string description)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

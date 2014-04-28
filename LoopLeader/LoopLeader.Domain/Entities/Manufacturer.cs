@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace LoopLeader.Domain.Entities
+namespace LoopLeader.Domain
 {
-    public class Administrator
+    public class Manufacturer
     {
-        public int AdminID
+        public int MfgID
         {
             get
             {
@@ -19,7 +18,7 @@ namespace LoopLeader.Domain.Entities
             }
         }
 
-        public string AdminPassword
+        public string Description
         {
             get
             {
@@ -30,7 +29,29 @@ namespace LoopLeader.Domain.Entities
             }
         }
 
-        public string AdminUserName
+        public string Name
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public double Price
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public int ProductID
         {
             get
             {

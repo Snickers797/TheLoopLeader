@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace LoopLeader.Domain.Entities
+namespace LoopLeader.Domain
 {
-    public class Product
+    public class Survey
     {
-        public int ProductID
+        public int SurveyID
         {
             get
             {
@@ -19,7 +18,7 @@ namespace LoopLeader.Domain.Entities
             }
         }
 
-        public int MfgID
+        public string SurveryQuestions
         {
             get
             {
@@ -30,7 +29,7 @@ namespace LoopLeader.Domain.Entities
             }
         }
 
-        public string Name
+        public string SurveryResponse
         {
             get
             {
@@ -41,7 +40,7 @@ namespace LoopLeader.Domain.Entities
             }
         }
 
-        public double Price
+        public string MemberLname
         {
             get
             {
@@ -52,7 +51,7 @@ namespace LoopLeader.Domain.Entities
             }
         }
 
-        public string Description
+        public string MemberFname
         {
             get
             {
@@ -63,7 +62,7 @@ namespace LoopLeader.Domain.Entities
             }
         }
 
-        public LoopLeader.Domain.Manufacturer Manufacturer
+        public string CustomerEmail
         {
             get
             {
@@ -72,6 +71,27 @@ namespace LoopLeader.Domain.Entities
             set
             {
             }
+        }
+
+        public LoopLeader.Domain.Entities.Member Member
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public void GetResponse(string surveyResponse)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void SendSurvey(string customerEmail, string memberFname, string memberLname, string surveryQuestions)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
