@@ -1,0 +1,10 @@
+C:\Users\marta_000\Documents\GitHub\TheLoopLeader\LoopLeader\LoopLeader.Domain\bin\Debug\LoopLeader.Domain.dll.config
+C:\Users\marta_000\Documents\GitHub\TheLoopLeader\LoopLeader\LoopLeader.Domain\bin\Debug\LoopLeader.Domain.dll
+C:\Users\marta_000\Documents\GitHub\TheLoopLeader\LoopLeader\LoopLeader.Domain\bin\Debug\LoopLeader.Domain.pdb
+C:\Users\marta_000\Documents\GitHub\TheLoopLeader\LoopLeader\LoopLeader.Domain\bin\Debug\EntityFramework.dll
+C:\Users\marta_000\Documents\GitHub\TheLoopLeader\LoopLeader\LoopLeader.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\marta_000\Documents\GitHub\TheLoopLeader\LoopLeader\LoopLeader.Domain\bin\Debug\EntityFramework.xml
+C:\Users\marta_000\Documents\GitHub\TheLoopLeader\LoopLeader\LoopLeader.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\marta_000\Documents\GitHub\TheLoopLeader\LoopLeader\LoopLeader.Domain\obj\Debug\LoopLeader.Domain.csprojResolveAssemblyReference.cache
+C:\Users\marta_000\Documents\GitHub\TheLoopLeader\LoopLeader\LoopLeader.Domain\obj\Debug\LoopLeader.Domain.dll
+C:\Users\marta_000\Documents\GitHub\TheLoopLeader\LoopLeader\LoopLeader.Domain\obj\Debug\LoopLeader.Domain.pdb
